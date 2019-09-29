@@ -10,10 +10,6 @@ function plotData(x, y)
 
 figure; % open a new figure window
 
-figure(1)
-plot(x,y,'rx','MarkerSize',10)
-xlabel('population')
-ylabel('revenue')
 
 
 % ====================== YOUR CODE HERE ======================
@@ -28,8 +24,10 @@ ylabel('revenue')
 %       markers larger by using plot(..., 'rx', 'MarkerSize', 10);
 
 
-
-
+figure(1)
+plot(x,y,'rx','MarkerSize',10)
+xlabel('population')
+ylabel('revenue')
 
 % ============================================================
 
